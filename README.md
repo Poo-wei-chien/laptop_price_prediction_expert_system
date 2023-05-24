@@ -1,5 +1,7 @@
 # Laptop Price Prediction Expert System
 
+<a ref = "https://winnie-the-poo.streamlit.app">Website Link</a>
+
 The Laptop Price Prediction Expert System is a cutting-edge solution developed for companies from any industry to accurately forecast the costs associated with procuring laptops for organizational use. By leveraging knowledge and a comprehensive dataset provided and suggested by our collaborator, this expert system empowers businesses to make informed decisions regarding laptop purchases, optimizing their budget allocation and ensuring efficient procurement strategies.
 
 The system's architecture utilizes predictive modeling techniques and expert knowledge to analyze various laptop attributes such as brand, processor type, memory, screen size, and other relevant specifications. By training on historical data, the expert system has acquired the ability to recognize patterns and correlations between these attributes and the corresponding prices, enabling it to generate reliable price predictions for new laptop models.
