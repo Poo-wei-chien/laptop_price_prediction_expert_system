@@ -14,12 +14,14 @@ st.set_page_config(
     page_icon = img,
     layout="centered",
     initial_sidebar_state="expanded",
-    menu_items={
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': "# This is a header. This is an *extremely* cool app!"
-    }
 )
+
+if "balloons_triggered" not in st.session_state:
+    st.session_state.balloons_triggered = False
+
+if not st.session_state.balloons_triggered:
+    st.balloons()
+    st.session_state.balloons_triggered = True
 
 # Page selection
 pages = ['Home', 'About']
