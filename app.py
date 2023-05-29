@@ -102,10 +102,9 @@ if selected_page == 'Home':
 
     touchscreen = st.selectbox('Touchscreen', ['None', 'Touchscreen'], index=0)
 
-    storage_1_options = ['None', '32GB SSD', '64GB FlashStorage', '128GB SSD', '256GB SSD', '512GB NVMe', '1TB HDD', '2TB HDD']
-    sorted_storage_1_options = sorted(storage_1_options[1:])
-    storage_1_options_with_other = sorted_storage_1_options + ['Other']
-    storage_1 = st.selectbox('Storage 1*', ['None'] + sorted_storage_1_options, index=0)
+    storage_1_options = ['None', '32GB SSD', '64GB FlashStorage', '128GB SSD', '256GB SSD', '512GB SSD', '1TB HDD', '2TB HDD']
+    storage_1_options_with_other = storage_1_options + ['Other']
+    storage_1 = st.selectbox('Storage 1*', ['None'] + storage_1_options, index=0)
 
     if storage_1 == 'Other':
         storage_1 = st.text_input('Enter the storage 1 of the laptop')
