@@ -74,7 +74,7 @@ if selected_page == 'Home':
     if gpu == 'Other':
         gpu = st.text_input('Enter the GPU of the laptop')
 
-    os_options = ['None', 'Chrome OS', 'Linux', 'macOS', 'No OS', 'Windows']
+    os_options = ['None', 'Chrome OS', 'Linux', 'macOS', 'Windows']
     sorted_os_options = sorted(os_options[1:])
     os_options_with_other = sorted_os_options + ['Other'] 
     os = st.selectbox('Operating System*', ['None'] + os_options_with_other, index=0)
