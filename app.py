@@ -94,7 +94,8 @@ if selected_page == 'Home':
             ppi = ((X_res ** 2) + (Y_res**2)) ** 0.5 / screen_size
             prediction = predict_laptop_price(company,lap_type,ram,weight,touchscreen,ips,ppi,cpu,hdd,ssd,gpu,os)
             prediction = modelTuning(prediction, company,lap_type,ram,touchscreen,ips,cpu,hdd,ssd,gpu,os)
-            st.title("The predicted price of this configuration is RM " + str(prediction))
+            prediction_str = f"{prediction:.2f}"
+            st.title("The predicted price of this configuration is RM " + prediction_str)
             
 
 if selected_page == 'About':
