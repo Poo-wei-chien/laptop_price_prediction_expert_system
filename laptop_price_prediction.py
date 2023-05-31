@@ -160,5 +160,5 @@ def modelTuning(predictedPrice, company,lap_type,ram,touchscreen,ips,cpu,hdd,ssd
     elif os == 'Others/No OS/Linux':
         totalPredictedPrice -= predictedPrice * 0.15
 
-    return totalPredictedPrice
+    return round(totalPredictedPrice, 2)
     
