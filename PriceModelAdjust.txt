@@ -1,0 +1,115 @@
+constant value
+-Brand
+Apple: +30% (known for premium pricing and brand value)
+HP: +10% (well-established brand with a wide range of offerings)
+Acer: -5% (relatively affordable pricing compared to other brands)
+Asus: +5% (known for a balance between performance and affordability)
+Dell: +20% (considered a premium brand with a focus on quality and durability)
+Lenovo: +10% (known for reliability and innovation)
+Chuwi: -15% (lesser-known brand offering budget-friendly options)
+MSI: +15% (specializes in gaming laptops with high-performance components)
+Microsoft: +20% (premium pricing for their Surface line of laptops)
+Toshiba: -5% (offers mid-range laptops with competitive pricing)
+Huawei: -10% (offers budget-friendly options with decent specifications)
+Xiaomi: -10% (known for affordability and value for money)
+Vero: -15% (lesser-known brand offering budget-friendly options)
+Razer: +25% (premium pricing for gaming-focused laptops)
+Mediacom: -15% (lesser-known brand offering budget-friendly options)
+Samsung: +15% (known for a balance between performance and design)
+Google: +15% (offers premium Chromebooks with unique features)
+Fujitsu: +5% (known for business-focused laptops with reliability)
+LG: +10% (offers a range of laptops with a focus on sleek design and display quality)
+
+
+-Type 
+Ultrabook: No additional percentage (0%)
+Notebook: No additional percentage (0%)
+Netbook: -10% (cheaper than Ultrabook and Notebook)
+Gaming: +20% (more expensive than Ultrabook and Notebook due to gaming-specific features)
+2 in 1 Convertible: +10% (slightly more expensive than Ultrabook and Notebook due to the added flexibility of convertible functionality)
+Workstation: +30% (more expensive than Ultrabook and Notebook due to higher performance and specialized features)
+
+
+-Touchscreen
+no touchscreen 0%
+touchscreen +20%
+
+-ips
+no ips 0%
+ips +15%
+
+-ram
+From 2GB to 4GB: Additional RM300-500   300
+From 4GB to 6GB: Additional RM300-500   400
+From 6GB to 8GB: Additional RM300-500   500
+From 8GB to 12GB: Additional RM500-800  700
+From 12GB to 16GB: Additional RM500-800 800
+From 16GB to 24GB: Additional RM800-1000   1000
+From 24GB to 32GB: Additional RM1000-1500  1500
+From 32GB to 64GB: Additional RM1500-2000  2000
+
+For 2GB RAM:
+Percentage difference: 0%
+
+For 4GB RAM:
+Percentage difference: +10%
+
+For 6GB RAM:
+Percentage difference: +30%
+
+For 8GB RAM:
+Percentage difference: -15%
+
+For 12GB RAM:
+Percentage difference: 0%
+
+For 16GB RAM:
+Percentage difference: -10%
+
+For 24GB RAM:
+Percentage difference: 0%
+
+For 32GB RAM:
+Percentage difference: +20%
+
+For 64GB RAM:
+Percentage difference: +50%
+
+-screen size
+the screen size is +ve u shape graph
+
+-cpu brand
+Intel Core i5: Base reference (0% difference)
+Intel Core i7: +20-30% (typically higher performance and a premium brand)
+AMD Processor: -10-20% (generally more budget-friendly and competitive pricing)
+Intel Core i3: -10-20% (lower performance compared to i5, lower cost)
+Other Intel Processor: Varies (could be similar or slightly lower than i5)
+
+-SSD 
+8 - -40% 
+128 - 0%
+256 - +10%
+512 - +15%
+1024 - +30%
+
+-60%
+256GB SSD: Price range of RM3800 - RM4200 (approximately 10-20% higher than the 128GB SSD model)
+512GB SSD: Price range of RM4300 - RM4700 (approximately 20-35% higher than the 128GB SSD model)
+1024GB (1TB) SSD: Price range of RM5000 - RM5500 (approximately 40-50% higher than the 128GB SSD model)
+
+-HDD
+128  0%
+256 +10%
+512 +15%
+1024 +25%
+2048 +30%
+
+-GPU
+Intel GPU: Base reference (0% difference)
+AMD GPU: -10-20% (generally more budget-friendly and competitive pricing compared to Intel)
+Nvidia GPU: +10-20% (typically higher performance and a premium brand compared to Intel)
+
+-OS
+macOS: +10-20% (Apple's proprietary operating system known for its seamless integration with Apple hardware and software ecosystem)
+Windows: Base reference (0% difference) (Windows is widely used and has extensive software compatibility)
+Linux: -10-20% (Linux is an open-source operating system that offers customization and flexibility but may have less software compatibility and user-friendliness compared to macOS and Windows)
