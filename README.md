@@ -10,3 +10,4 @@ User-friendliness and accessibility are integral aspects of our expert system. W
 
 In summary, our expert system serves as a valuable tool for estimating laptop prices, benefiting both larger companies and individuals seeking to make cost-effective purchases. By providing accurate price estimates and enabling users to compare them with market prices, our system empowers users to make informed decisions, ultimately saving money.
 
+<img src="img.jpg" >
