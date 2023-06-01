@@ -26,4 +26,4 @@ def show_about_page():
 
 
     image = Image.open('about.jpg')
-    st.image(image, caption='Credit to: Price Predicto Team')
+    st.image(image, caption='© 2023 Price Predicto. All rights reserved.')
