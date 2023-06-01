@@ -26,4 +26,4 @@ def show_about_page():
 
 
     image = Image.open('about.jpg')
-    st.image(image, caption='Credit to: Winnie The Poo Team')
+    st.image(image, caption='Credit to: Price Predicto Team')

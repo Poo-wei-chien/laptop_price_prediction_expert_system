@@ -7,6 +7,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 from laptop_price_prediction import modelTuning, predict_laptop_price
 import about
+import specification
 import pandas as pd
 
 #Set up Page Config
@@ -26,7 +27,7 @@ if not st.session_state.balloons_triggered:
     st.session_state.balloons_triggered = True
 
 # Page selection
-pages = ['Home', 'About']
+pages = ['Home','Specification', 'About']
 selected_page = st.sidebar.selectbox('Select Page', pages)
 
 # Display the selected page content
@@ -97,6 +98,10 @@ if selected_page == 'Home':
             prediction_str = f"{prediction:.2f}"
             st.title("The predicted price of this configuration is RM " + prediction_str)
             
+
+if selected_page == 'Specification':
+    # Specification page content
+    specification.show_specification_page()
 
 if selected_page == 'About':
     # About page content
