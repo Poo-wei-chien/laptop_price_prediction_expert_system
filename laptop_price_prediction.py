@@ -42,7 +42,7 @@ def predict_laptop_price(company,lap_type,ram,weight,touchscreen,ips,ppi,cpu,hdd
     predicted_price = predict_laptop_price_model(df.values)
 
     # Change INR to MYR
-    predicted_price[0] = round(predicted_price[0] * 0.056, 2)
+    predicted_price[0] = round(predicted_price[0], 2)
 
     return predicted_price[0]
 
